@@ -1,0 +1,15 @@
+site_name: Kubernetes Internals
+
+# Change this from 'source_docs' to 'docs'
+docs_dir: 'docs'
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Kubernetes:
+      - Pods: kubernetes/pod.md
+      - Service: kubernetes/service.md
+  - Networking:
+      - Ingress: networking/ingress.md
